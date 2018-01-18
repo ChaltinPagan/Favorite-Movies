@@ -28,11 +28,7 @@ class Movies extends React.Component {
   renderMovieList = () => {
     return <MovieList />;
   };
-
-  renderGenre = () => {
-    return <Genre />;
-  }
-
+  
   render() {
     return (
       <div className="content">
